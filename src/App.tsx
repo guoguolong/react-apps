@@ -1,6 +1,8 @@
-import React from 'react';
+import { ColorPickerField, ImageField } from 'koda-react-widgets';
 import logo from './logo.svg';
 import './App.css';
+
+console.log(ColorPickerField, ImageField);
 
 function App() {
   return (
@@ -16,8 +18,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React.
         </a>
+        <ColorPickerField />
       </header>
     </div>
   );
